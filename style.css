@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    background-color: #f4f4f4;
+}
+
+h1, h2{
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    font-size: 15px;
+}
+span {
+    font-size: 32px;
+}
+
+#seconds{
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+
+}
+
+#tens {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+}
+
+.container {
+    width: 800px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#button-start {
+    background: green;
+    color: white;
+    padding: 15px;
+    margin: 0 10px 0 10px;
+    border:none;
+}
+
+#button-start:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+}
+
+#button-stop {
+    background: #ff2626;
+    color: white;
+    padding: 15px;
+    margin: 0 10px 0 10px;
+    border: none;
+}
+
+
+#button-stop:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+}
+
+#button-reset {
+    background: #088bff;
+    color: white;
+    padding: 15px;
+    margin: 0 10px 0 10px;
+    border: none;
+}
+
+
+#button-reset:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+}
